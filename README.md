@@ -36,6 +36,8 @@ Neal is here to tell us why Java is <sarcasm>definitely, 100%, pass by reference
 
 #### References, Heap, GC, this
 
+References are how we refer to objects in Java.  These objects are (generally) stored on the heap, with the objects becoming eligible for garbage collection when there are no longer references pointing to the object.  Objects may also use the 'this' keyword to self-refer where needed.
+
 #### Static (when, where, why), Final *[Josh]*
 
 Static is a non-access modifier keyword in Java, which allows for access before any objects of the class are created and without reference to any object.
